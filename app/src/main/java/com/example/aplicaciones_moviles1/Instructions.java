@@ -18,12 +18,8 @@ public class Instructions extends AppCompatActivity {
         btnClose.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                btnClose();
+                finish();
             }
         });
-    }
-    public void btnClose() {
-        Intent intent = new Intent(this, AppHome.class);
-        startActivity(intent);
     }
 }
