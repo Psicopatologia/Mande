@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Credits extends AppCompatActivity {
+public class CreditsActivity extends AppCompatActivity {
     Button btnClose;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

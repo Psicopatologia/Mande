@@ -7,9 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import android.widget.TableRow;
 
-public class Store extends AppCompatActivity {
+public class StoreActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +31,7 @@ public class Store extends AppCompatActivity {
         });
     }
     public void openProduct(){
-        Intent intent = new Intent(this, Product.class);
+        Intent intent = new Intent(this, ProductActivity.class);
         startActivity(intent);
     }
 }

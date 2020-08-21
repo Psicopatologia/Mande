@@ -6,28 +6,27 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TableRow;
+import android.widget.LinearLayout;
 
-public class Stores extends AppCompatActivity {
+public class ProductsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stores);
-        TableRow clicStore = (TableRow )findViewById(R.id.clicStore);
-        Button btnProducts = (Button) findViewById(R.id.btnProducts);
+        setContentView(R.layout.activity_products);
+        LinearLayout clicProduct = (LinearLayout )findViewById(R.id.clicProduct);
+        Button btnStores = (Button) findViewById(R.id.btnStores);
         Button btnCar = (Button) findViewById(R.id.btnCar);
-
-        clicStore.setOnClickListener(new View.OnClickListener() {
+        clicProduct.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openStore();
+                openProduct();
             }
         });
-        btnProducts.setOnClickListener(new View.OnClickListener() {
+        btnStores.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                opeProducts();
+                openStores();
             }
         });
         btnCar.setOnClickListener(new View.OnClickListener() {
@@ -37,16 +36,16 @@ public class Stores extends AppCompatActivity {
             }
         });
     }
-    public void openStore(){
-        Intent intent = new Intent(this, Store.class);
+    public void openProduct(){
+        Intent intent = new Intent(this, ProductActivity.class);
         startActivity(intent);
     }
-    public void opeProducts(){
-        Intent intent = new Intent(this, Products.class);
+    public void openStores(){
+        Intent intent = new Intent(this, StoresActivity.class);
         startActivity(intent);
     }
     public void opeCar(){
-        Intent intent = new Intent(this, Car.class);
+        Intent intent = new Intent(this, CarActivity.class);
         startActivity(intent);
     }
 }
