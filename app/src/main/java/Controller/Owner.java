@@ -1,4 +1,7 @@
-package com.example.aplicaciones_moviles1;
+package Controller;
+
+import Controller.Store;
+import Controller.User;
 
 public class Owner extends User {
     Store stores[];
