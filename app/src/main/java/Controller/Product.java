@@ -1,8 +1,20 @@
 package Controller;
 
 public class Product {
-    String Name, Description;
-    int Price, Integer;
+    private String Name, Description;
+    private int Price, Amount, ID;
+
+    public Product(int id, int price, int amount , String name, String description) {
+        Name = name;
+        Description = description;
+        Price = price;
+        Amount = amount;
+        ID =id;
+    }
+
+    public int getID() {
+        return ID;
+    }
 
     public String getName() {
         return Name;
@@ -16,7 +28,7 @@ public class Product {
         return Price;
     }
 
-    public int getInteger() {
-        return Integer;
+    public int getAmount() {
+        return Amount;
     }
 }

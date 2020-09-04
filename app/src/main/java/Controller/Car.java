@@ -1,13 +1,19 @@
 package Controller;
 
-public class Car {
-    Product products[];
+import java.util.ArrayList;
 
-    public Product[] getProducts() {
+public class Car {
+    private ArrayList<Product> products;
+
+    public ArrayList<Product> getProducts() {
         return products;
     }
 
-    public void setProducts(Product[] products) {
-        this.products = products;
+    public void addProduct(Product p) {
+        this.products.add(p);
     }
+
+
+
+    public void removeProduct(int i) {products.remove(i);}
 }
