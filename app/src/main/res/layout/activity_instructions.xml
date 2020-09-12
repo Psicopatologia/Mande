@@ -31,7 +31,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="19dp" />
+            android:layout_height="48dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -40,23 +40,24 @@
             android:padding="10dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView5"
                 android:layout_width="155dp"
                 android:layout_height="121dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_gallery" />
+                app:srcCompat="@drawable/logo" />
 
             <TextView
-                android:id="@+id/textView15"
+                android:id="@+id/textView1"
                 android:layout_width="179dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut ex ullamcorper, varius turpis ut, aliquam turpis. Sed pharetra, felis id ultricies imperdiet, odio felis sagittis leo, eget congue arcu odio ac dolor" />
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut ex ullamcorper, varius turpis ut, aliquam turpis. Sed pharetra, felis id ultricies imperdiet, odio felis sagittis leo, eget congue arcu odio ac dolor"
+                android:textColor="#2B2B2B" />
         </LinearLayout>
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="19dp" />
+            android:layout_height="24dp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,18 +67,19 @@
             android:padding="10dp">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView4"
                 android:layout_width="155dp"
                 android:layout_height="121dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_gallery" />
+                app:srcCompat="@drawable/logo" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="179dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut ex ullamcorper, varius turpis ut, aliquam turpis. Sed pharetra, felis id ultricies imperdiet, odio felis sagittis leo, eget congue arcu odio ac dolor" />
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut ex ullamcorper, varius turpis ut, aliquam turpis. Sed pharetra, felis id ultricies imperdiet, odio felis sagittis leo, eget congue arcu odio ac dolor"
+                android:textColor="#2B2B2B" />
 
         </LinearLayout>
 

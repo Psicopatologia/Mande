@@ -1,34 +1,63 @@
 package Controller;
 
 public class Product {
-    private String Name, Description;
-    private int Price, Amount, ID;
+    private String name, description;
+    private int price, amount, id, store;
 
-    public Product(int id, int price, int amount , String name, String description) {
-        Name = name;
-        Description = description;
-        Price = price;
-        Amount = amount;
-        ID =id;
+    public Product(int id, int store, int price, int amount , String name, String description) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.amount = amount;
+        this.id =id;
+        this.store = store;
     }
 
-    public int getID() {
-        return ID;
+    public int getStore() {
+        return store;
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public int getPrice() {
-        return Price;
+        return price;
     }
 
     public int getAmount() {
-        return Amount;
+        return amount;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setStore(int store) {
+        this.store = store;
     }
 }

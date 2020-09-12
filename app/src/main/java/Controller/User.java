@@ -1,7 +1,19 @@
 package Controller;
 
 public class User {
-    String Name, Email, Password;
+    private String Name, Email, Password;
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
+    public void setPassword(String password) {
+        Password = password;
+    }
 
     public String getName() {
         return Name;

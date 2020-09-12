@@ -15,7 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="right"
+            android:gravity="end"
             android:orientation="horizontal">
 
             <Button
@@ -35,7 +35,7 @@
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
             android:layout_height="172dp"
-            app:srcCompat="@android:drawable/ic_menu_gallery" />
+            app:srcCompat="@drawable/logo" />
 
         <Space
             android:layout_width="match_parent"
@@ -46,6 +46,7 @@
             android:layout_width="337dp"
             android:layout_height="wrap_content"
             android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet eros egestas, vestibulum felis vel, rhoncus lectus. Nam molestie dolor lorem, eget ornare neque hendrerit vitae. Donec iaculis posuere egestas. Aliquam a urna metus. Praesent a ante id urna bibendum mollis sit amet a felis. Integer maximus dui non suscipit accumsan. Donec id lacus sit amet lacus venenatis dignissim sed sit amet turpis. Ut sollicitudin, sem sed orci. "
+            android:textColor="#2B2B2B"
             android:textSize="18sp" />
 
     </LinearLayout>

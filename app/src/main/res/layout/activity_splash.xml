@@ -16,20 +16,18 @@
             android:id="@+id/imageView5"
             android:layout_width="200sp"
             android:layout_height="200sp"
-            app:srcCompat="@android:drawable/ic_menu_gallery"
-            tools:srcCompat="@android:drawable/ic_menu_gallery" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="100sp" />
+            app:srcCompat="@drawable/logobg"
+            tools:srcCompat="@drawable/logobg" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
             android:gravity="center"
             android:text="Mande"
-            android:textColor="#000000"
-            android:textSize="18sp" />
+            android:textColor="#2B2B2B"
+            android:textSize="36sp"
+            android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

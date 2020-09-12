@@ -52,7 +52,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:text="$$$$$"
-                        android:textColor="#000000"
+                        android:textColor="#2B2B2B"
                         android:textSize="64sp" />
 
                 </TableRow>
@@ -68,7 +68,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="128dp"
                         android:layout_height="95dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logo" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -106,7 +106,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="128dp"
                         android:layout_height="95dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logo" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -144,7 +144,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="128dp"
                         android:layout_height="95dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logo" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -180,9 +180,11 @@
                         android:id="@+id/button2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:background="#FFFFFF"
                         android:text="Order"
-                        android:textColor="#000000"
-                        android:textSize="18sp" />
+                        android:textColor="#FFDD55"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
                 </TableRow>
 
             </TableLayout>

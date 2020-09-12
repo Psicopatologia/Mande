@@ -17,7 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="#00FFFFFF"
-            android:text="Car" />
+            android:text="Car"
+            android:textColor="#FFDD55"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,15 +31,20 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#FFDD55"
                 android:clickable="false"
-                android:text="Stores" />
+                android:text="Stores"
+                android:textColor="#2B2B2B"
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnProducts"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Products" />
+                android:background="#FFDD55"
+                android:text="Products"
+                android:textColor="#2B2B2B" />
         </LinearLayout>
 
         <Space
@@ -62,7 +69,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="137dp"
                         android:layout_height="142dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logobg" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -108,7 +115,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="137dp"
                         android:layout_height="142dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logobg" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -154,7 +161,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="137dp"
                         android:layout_height="142dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logobg" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -200,7 +207,7 @@
                         android:id="@+id/imageView4"
                         android:layout_width="137dp"
                         android:layout_height="142dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logobg" />
 
                     <LinearLayout
                         android:layout_width="152dp"
@@ -245,7 +252,7 @@
                         android:id="@+id/imageView6"
                         android:layout_width="137dp"
                         android:layout_height="142dp"
-                        app:srcCompat="@android:drawable/ic_menu_gallery" />
+                        app:srcCompat="@drawable/logobg" />
 
                     <LinearLayout
                         android:layout_width="152dp"

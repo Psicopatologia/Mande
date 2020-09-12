@@ -43,6 +43,7 @@ public class ProductsActivity extends AppCompatActivity {
     public void openStores(){
         Intent intent = new Intent(this, StoresActivity.class);
         startActivity(intent);
+        finish();
     }
     public void opeCar(){
         Intent intent = new Intent(this, CarActivity.class);

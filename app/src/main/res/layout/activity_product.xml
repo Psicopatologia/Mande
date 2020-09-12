@@ -44,7 +44,7 @@
                 android:layout_width="239dp"
                 android:layout_height="272dp"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_gallery" />
+                app:srcCompat="@drawable/logo" />
 
             <TextView
                 android:id="@+id/textView5"
@@ -83,7 +83,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Add to car" />
+                android:background="#FFFFFF"
+                android:text="Add to car"
+                android:textColor="#FFDD55"
+                android:textStyle="bold" />
 
         </LinearLayout>
 

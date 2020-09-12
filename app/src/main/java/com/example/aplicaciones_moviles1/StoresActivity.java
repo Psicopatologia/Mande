@@ -8,11 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TableRow;
 
+import utils.DataBaseMande;
+
 public class StoresActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_stores);
         TableRow clicStore = (TableRow )findViewById(R.id.clicStore);
         Button btnProducts = (Button) findViewById(R.id.btnProducts);
@@ -44,6 +47,7 @@ public class StoresActivity extends AppCompatActivity {
     public void opeProducts(){
         Intent intent = new Intent(this, ProductsActivity.class);
         startActivity(intent);
+        finish();
     }
     public void opeCar(){
         Intent intent = new Intent(this, CarActivity.class);

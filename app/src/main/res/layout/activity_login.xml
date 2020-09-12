@@ -17,8 +17,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Login"
-            android:textColor="#000000"
-            android:textSize="24sp" />
+            android:textColor="#FFDD55"
+            android:textSize="48sp"
+            android:textStyle="bold" />
 
         <Space
             android:layout_width="match_parent"
@@ -29,7 +30,7 @@
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:text="Username"
-            android:textColor="#000000"
+            android:textColor="#2B2B2B"
             android:textSize="18sp" />
 
         <EditText
@@ -48,7 +49,7 @@
             android:layout_width="212dp"
             android:layout_height="wrap_content"
             android:text="Password"
-            android:textColor="#000000"
+            android:textColor="#2B2B2B"
             android:textSize="18sp" />
 
         <EditText
@@ -66,7 +67,9 @@
             android:id="@+id/btnLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Login" />
+            android:background="#FFFFFF"
+            android:text="Login"
+            android:textColor="#FFDD55" />
 
         <Space
             android:layout_width="match_parent"
@@ -79,6 +82,7 @@
             android:background="#00000000"
             android:text="Sign Up"
             android:textAllCaps="false"
+            android:textColor="#2B2B2B"
             android:textSize="14sp" />
 
     </LinearLayout>

@@ -43,7 +43,7 @@
                 android:layout_width="88dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                app:srcCompat="@android:drawable/ic_menu_gallery" />
+                app:srcCompat="@drawable/logobg" />
 
             <LinearLayout
                 android:layout_width="278dp"
@@ -109,7 +109,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -139,7 +139,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -169,104 +169,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
-
-                        <TextView
-                            android:id="@+id/textView16"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Name"
-                            android:textColor="#000000"
-                            android:textSize="18sp" />
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Price"
-                            android:textColor="#000000" />
-                    </LinearLayout>
-
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:padding="19dp">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/imageView9"
-                            android:layout_width="112dp"
-                            android:layout_height="105dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
-
-                        <TextView
-                            android:id="@+id/textView16"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Name"
-                            android:textColor="#000000"
-                            android:textSize="18sp" />
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Price"
-                            android:textColor="#000000" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/imageView9"
-                            android:layout_width="112dp"
-                            android:layout_height="105dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
-
-                        <TextView
-                            android:id="@+id/textView16"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Name"
-                            android:textColor="#000000"
-                            android:textSize="18sp" />
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:text="Price"
-                            android:textColor="#000000" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <ImageView
-                            android:id="@+id/imageView9"
-                            android:layout_width="112dp"
-                            android:layout_height="105dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -303,7 +206,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -333,7 +236,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -363,7 +266,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -400,7 +303,7 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
@@ -430,7 +333,104 @@
                             android:layout_width="112dp"
                             android:layout_height="105dp"
                             android:layout_weight="1"
-                            app:srcCompat="@android:drawable/ic_menu_gallery" />
+                            app:srcCompat="@drawable/logo" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Name"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Price"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="112dp"
+                            android:layout_height="105dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/logo" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Name"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Price"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="19dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="112dp"
+                            android:layout_height="105dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/logo" />
+
+                        <TextView
+                            android:id="@+id/textView16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Name"
+                            android:textColor="#000000"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/textView17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Price"
+                            android:textColor="#000000" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="112dp"
+                            android:layout_height="105dp"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/logo" />
 
                         <TextView
                             android:id="@+id/textView16"
